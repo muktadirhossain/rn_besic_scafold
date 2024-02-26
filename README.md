@@ -12,6 +12,8 @@ This is a React Native mobile application scaffold equipped with essential libra
 - **React Native Paper:** Material Design components for a polished UI.
 - **Vector Icons:** A wide range of customizable icons for your app.
 - **Linting and Testing:** ESLint, Prettier, and Jest configured for code quality and testing.
+- **react-native-svg-icon**
+- **@react-native-community/netinfo**
 
 ## Getting Started
 
@@ -19,6 +21,16 @@ This is a React Native mobile application scaffold equipped with essential libra
 2. Install dependencies using `npm install` or `yarn install`.
 3. Run on Android: `npm run android` or `yarn android`.
 4. Run on iOS: `npm run ios` or `yarn ios`.
+
+
+## Rename Your Project with 🔄 
+
+`Using react-native-rename package`.
+```
+npx react-native-rename@latest "new_name"
+    // custom Bundle Identifier
+npx react-native-rename@latest "new_name" -b "bundle_identifier"
+```
 
 ## Additional Scripts
 
